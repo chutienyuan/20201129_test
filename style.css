@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.basic-border {
+  border: 1px solid;
+}
+#store {
+  max-width: 940px;
+  margin: auto;
+}
+#store navigation {
+  text-align: center;
+}
+#store navigation h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+#store navigation ul {
+  border: 1px solid;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+#store navigation ul li {
+  flex: 1;
+  padding: 1em;
+}
+#store navigation ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#store #shop {
+  display: flex;
+  flex-wrap: wrap;
+}
+#store #shop .card {
+  padding: 1em;
+  width: 25%;
+  text-align: center;
+  font-weight: bold;
+}
+#store #shop .card .img {
+  font-size: 3em;
+  padding: 0.5em 0;
+  color: #444;
+}
+#store #shop .card .img:hover {
+  color: darkgoldenrod;
+}
+#store #shop .card:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
